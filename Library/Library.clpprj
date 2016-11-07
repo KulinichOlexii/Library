@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="D:\XAMPP\htdocs\Library\Library.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost/Library/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/Library/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="D:\XAMPP\htdocs\Library\home.php"/>
+		<file name="D:\XAMPP\htdocs\Library\style.css"/>
+		<file name="D:\XAMPP\htdocs\Library\server.php"/>
+		<file name="D:\XAMPP\htdocs\Library\script.js"/>
+		<file name="D:\XAMPP\htdocs\Library\connection.php"/>
+		<file name="D:\XAMPP\htdocs\Library\login.php"/>
+	</lastopfiles>
+	<errors version="5.3">
+	</errors>
+	<codestructure version="5.8">
+		<phptree>
+			<treenode node="connection.php;PHP:PHP Include;D:\XAMPP\htdocs\Library\server.php;f14;4;28;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="login.php;PHP:PHP Include;D:\XAMPP\htdocs\Library\test.php;f14;20;23;20;;D:\XAMPP\htdocs\Library\server.php;f14;3;23;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="server.php;PHP:PHP Include;D:\XAMPP\htdocs\Library\home.php;f80;11;90;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="Connection;PHP:Class Name;D:\XAMPP\htdocs\Library\connection.php;f0;8;1;680;;;;vpos;;v;;r&#xA;Definition&#xA;    class Connection&#xA;&#xA;Description&#xA;     Connection management.;;d17,8;;b0,0;;m">
+				<treenode node="addBook;PHP:Function Name;D:\XAMPP\htdocs\Library\connection.php;f1;327;2;401;;;;vpos;;v;;r;;d74,327;;b0,0;;mdb_hostname;;pdb_username;;pdb_password;;pdb_database;;p">
+					<treenode node="_POST;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f41;338;47;338;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="authors;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;361;9;361;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="authorsBook;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f4;366;16;366;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="connection;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;329;12;329;;;;vposmysqli;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_database;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f61;327;73;327;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_hostname;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f19;327;31;327;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_password;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f47;327;59;327;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_username;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f33;327;45;327;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="i;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f6;364;8;364;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="isbn;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;338;6;338;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="j;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f6;390;8;390;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="languageEditions;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;344;18;344;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="mysqli;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f50;331;57;331;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="name;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;339;6;339;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="nameClassifier;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;375;16;375;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="number_InventoryNumber;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;347;24;347;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="numberAuthor;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;362;14;362;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="numberPages;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;343;13;343;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="placePublication;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;341;18;341;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="publishingHouse;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;340;17;340;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="publishingYear;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;342;16;342;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="query_authors;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f4;368;18;368;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="query_BooksLibrary;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;350;20;350;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="query_classifierSF;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;377;20;377;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="query_specimen;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f4;394;19;394;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="receiptDate;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;388;13;388;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="addReader;PHP:Function Name;D:\XAMPP\htdocs\Library\connection.php;f1;406;2;431;;;;vpos;;v;;r;;d76,406;;b0,0;;mdb_hostname;;pdb_username;;pdb_password;;pdb_database;;p">
+					<treenode node="_POST;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f46;415;52;415;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="birthDate;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;417;11;417;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="connection;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;408;12;408;;;;vposmysqli;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_database;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f63;406;75;406;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_hostname;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f21;406;33;406;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_password;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f49;406;61;406;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_username;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f35;406;47;406;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="firstName;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;415;11;415;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="gender;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;418;8;418;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="homeAddress;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;420;13;420;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="lastName;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;416;10;416;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="mysqli;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f50;410;57;410;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="phoneNumber;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;419;13;419;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="query_reader;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;422;14;422;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="addSpecimen;PHP:Function Name;D:\XAMPP\htdocs\Library\connection.php;f1;662;2;678;;;;vpos;;v;;r;;d78,662;;b0,0;;mdb_hostname;;pdb_username;;pdb_password;;pdb_database;;p">
+					<treenode node="_POST;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f48;670;54;670;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="connection;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;664;12;664;;;;vposmysqli;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_database;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f65;662;77;662;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_hostname;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f23;662;35;662;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_password;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f51;662;63;662;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_username;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f37;662;49;662;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="mysqli;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f50;666;57;666;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="newSpecimen;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;670;13;670;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="oldISBN;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;671;9;671;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;673;8;673;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="delBook;PHP:Function Name;D:\XAMPP\htdocs\Library\connection.php;f1;436;2;453;;;;vpos;;v;;r;;d74,436;;b0,0;;mdb_hostname;;pdb_username;;pdb_password;;pdb_database;;p">
+					<treenode node="_POST;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f41;444;47;444;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="connection;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;438;12;438;;;;vposmysqli;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_database;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f61;436;73;436;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_hostname;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f19;436;31;436;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_password;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f47;436;59;436;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_username;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f33;436;45;436;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="isbn;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;444;6;444;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="mysqli;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f50;440;57;440;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;446;8;446;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="delReader;PHP:Function Name;D:\XAMPP\htdocs\Library\connection.php;f1;457;2;472;;;;vpos;;v;;r;;d76,457;;b0,0;;mdb_hostname;;pdb_username;;pdb_password;;pdb_database;;p">
+					<treenode node="_POST;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f39;465;45;465;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="connection;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;459;12;459;;;;vposmysqli;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_database;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f63;457;75;457;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_hostname;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f21;457;33;457;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_password;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f49;457;61;457;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_username;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f35;457;47;457;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="id;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;465;4;465;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="mysqli;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f50;461;57;461;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;467;8;467;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="delSpecimen;PHP:Function Name;D:\XAMPP\htdocs\Library\connection.php;f1;620;2;637;;;;vpos;;v;;r;;d78,620;;b0,0;;mdb_hostname;;pdb_username;;pdb_password;;pdb_database;;p">
+					<treenode node="_POST;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f50;628;56;628;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="connection;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;622;12;622;;;;vposmysqli;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_database;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f65;620;77;620;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_hostname;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f23;620;35;620;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_password;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f51;620;63;620;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_username;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f37;620;49;620;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="delIdSpecimen;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;628;15;628;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="mysqli;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f50;624;57;624;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;630;8;630;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="editBook;PHP:Function Name;D:\XAMPP\htdocs\Library\connection.php;f1;526;1;580;;;;vpos;;v;;r;;d75,526;;b0,0;;mdb_hostname;;pdb_username;;pdb_password;;pdb_database;;p">
+					<treenode node="_POST;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f41;535;47;535;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="connection;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;528;12;528;;;;vposmysqli;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_database;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f62;526;74;526;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_hostname;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f20;526;32;526;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_password;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f48;526;60;526;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_username;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f34;526;46;526;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="firstISBN;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;543;11;543;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="i;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f6;570;8;570;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="isbn;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;535;6;535;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="languageEditions;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;541;18;541;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="mysqli;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f50;530;57;530;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="name;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;536;6;536;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="nameClassifier;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;555;16;555;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="numberAuthor;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;565;14;565;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="numberPages;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;540;13;540;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="placePublication;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;538;18;538;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="publishingHouse;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;537;17;537;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="publishingYear;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;539;16;539;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="query_authors;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f4;573;18;573;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="editReader;PHP:Function Name;D:\XAMPP\htdocs\Library\connection.php;f1;587;2;611;;;;vpos;;v;;r;;d77,587;;b0,0;;mdb_hostname;;pdb_username;;pdb_password;;pdb_database;;p">
+					<treenode node="_POST;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f50;597;56;597;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="birthDate;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;600;11;600;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="connection;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;589;12;589;;;;vposmysqli;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_database;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f64;587;76;587;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_hostname;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f22;587;34;587;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_password;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f50;587;62;587;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_username;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f36;587;48;587;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="firstName;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;598;11;598;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="gender;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;601;8;601;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="homeAddress;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;603;13;603;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="idLibraryCard;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;597;15;597;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="lastName;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;599;10;599;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="mysqli;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f50;591;57;591;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="phoneNumber;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;602;13;602;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="editSpecimen;PHP:Function Name;D:\XAMPP\htdocs\Library\connection.php;f1;642;2;658;;;;vpos;;v;;r;;d79,642;;b0,0;;mdb_hostname;;pdb_username;;pdb_password;;pdb_database;;p">
+					<treenode node="_POST;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f50;650;56;650;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="connection;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;644;12;644;;;;vposmysqli;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_database;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f66;642;78;642;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_hostname;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f24;642;36;642;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_password;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f52;642;64;642;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_username;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f38;642;50;642;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="IdSpecimen;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;651;12;651;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="mysqli;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f50;646;57;646;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="newReceipDate;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;650;15;650;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;653;8;653;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="issueBook;PHP:Function Name;D:\XAMPP\htdocs\Library\connection.php;f1;477;2;497;;;;vpos;;v;;r;;d76,477;;b0,0;;mdb_hostname;;pdb_username;;pdb_password;;pdb_database;;p">
+					<treenode node="_POST;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f57;485;63;485;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="connection;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;479;12;479;;;;vposmysqli;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_database;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f63;477;75;477;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_hostname;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f21;477;33;477;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_password;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f49;477;61;477;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_username;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f35;477;47;477;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="dt;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;488;4;488;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="IdCard;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;486;8;486;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="issueDate;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;489;11;489;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="issueInventoryNumber;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;485;22;485;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="mysqli;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f50;481;57;481;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;491;8;491;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="overviewBook;PHP:Function Name;D:\XAMPP\htdocs\Library\connection.php;f1;121;1;244;;;;vpos;;v;;r;;d86,121;;b0,0;;mdb_hostname;;pdb_username;;pdb_password;;pdb_database;;pisbn;;p">
+					<treenode node="connection;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;123;12;123;;;;vposmysqli;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="countRow;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f2;132;11;132;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_database;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f66;121;78;121;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_hostname;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f24;121;36;121;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_password;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f52;121;64;121;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_username;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f38;121;50;121;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="i;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f8;134;10;134;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="isbn;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f80;121;85;121;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="massiv;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f4;143;11;143;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="mysqli;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f48;125;55;125;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="output;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f4;144;11;144;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;128;8;128;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="row;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f4;136;8;136;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="subResult;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f4;140;14;140;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="subResultCopies;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f4;187;20;187;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="subRow;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f9;142;16;142;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="subRowCopies;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f8;201;21;201;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="overviewReader;PHP:Function Name;D:\XAMPP\htdocs\Library\connection.php;f1;249;1;321;;;;vpos;;v;;r;;d97,249;;b0,0;;mdb_hostname;;pdb_username;;pdb_password;;pdb_database;;pidLibraryCard;;p">
+					<treenode node="connection;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;251;12;251;;;;vposmysqli;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="countRow;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f2;260;11;260;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_database;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f68;249;80;249;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_hostname;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f26;249;38;249;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_password;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f54;249;66;249;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_username;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f40;249;52;249;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="i;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f8;262;10;262;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="idLibraryCard;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f82;249;96;249;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="mysqli;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f48;253;55;253;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;256;8;256;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="row;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f4;264;8;264;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="subResult;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f4;295;14;295;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="subRow;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f8;303;15;303;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="returnBook;PHP:Function Name;D:\XAMPP\htdocs\Library\connection.php;f1;502;2;521;;;;vpos;;v;;r;;d77,502;;b0,0;;mdb_hostname;;pdb_username;;pdb_password;;pdb_database;;p">
+					<treenode node="_POST;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f58;510;64;510;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="connection;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;504;12;504;;;;vposmysqli;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_database;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f64;502;76;502;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_hostname;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f22;502;34;502;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_password;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f50;502;62;502;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_username;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f36;502;48;502;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="dt;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;512;4;512;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="mysqli;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f50;506;57;506;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;515;8;515;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="returnDate;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;513;12;513;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="returnInventoryNumber;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;510;23;510;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="showBooks;PHP:Function Name;D:\XAMPP\htdocs\Library\connection.php;f1;11;1;57;;;;vpos;;v;;r;;d76,11;;b0,0;;mdb_hostname;;pdb_username;;pdb_password;;pdb_database;;p">
+					<treenode node="connection;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f2;13;13;13;;;;vposmysqli;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="countRow;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f2;27;11;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_database;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f63;11;75;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_hostname;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f21;11;33;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_password;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f49;11;61;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_username;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f35;11;47;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="i;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f8;29;10;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="mysqli;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f48;15;55;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;19;8;19;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="row;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f3;32;7;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="showReaders;PHP:Function Name;D:\XAMPP\htdocs\Library\connection.php;f1;63;1;114;;;;vpos;;v;;r;;d78,63;;b0,0;;mdb_hostname;;pdb_username;;pdb_password;;pdb_database;;p">
+					<treenode node="connection;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;65;12;65;;;;vposmysqli;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="countReaders;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f2;80;15;80;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_database;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f65;63;77;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_hostname;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f23;63;35;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_password;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f51;63;63;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="db_username;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f37;63;49;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="i;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f8;82;10;82;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="massivReaders;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f4;90;18;90;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="mysqli;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f48;67;55;67;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="outputReaders;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f3;88;17;88;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="resultReaders;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f1;72;15;72;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="rowReaders;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f4;84;15;84;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="subResultReaders;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f4;87;21;87;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="subRowReaders;PHP:Var Name;D:\XAMPP\htdocs\Library\connection.php;f9;89;23;89;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+			</treenode>
+			<treenode node="get_post;PHP:Function Name;D:\XAMPP\htdocs\Library\test.php;f1;93;2;95;;;;vpos;;v;;r;;d24,93;;b0,0;;mvar;;p">
+				<treenode node="_POST;PHP:Var Name;D:\XAMPP\htdocs\Library\test.php;f34;94;40;94;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="var;PHP:Var Name;D:\XAMPP\htdocs\Library\test.php;f19;93;23;93;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="_POST;PHP:Var Name;D:\XAMPP\htdocs\Library\test.php;f11;31;17;31;;D:\XAMPP\htdocs\Library\server.php;f12;11;18;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="author;PHP:Var Name;D:\XAMPP\htdocs\Library\test.php;f2;47;9;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="category;PHP:Var Name;D:\XAMPP\htdocs\Library\test.php;f2;49;11;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="connect;PHP:Var Name;D:\XAMPP\htdocs\Library\home.php;f12;55;20;55;;D:\XAMPP\htdocs\Library\server.php;f0;6;8;6;;;;vposConnection;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="db_database;PHP:Var Name;D:\XAMPP\htdocs\Library\test.php;f16;24;28;24;;D:\XAMPP\htdocs\Library\home.php;f74;55;86;55;;D:\XAMPP\htdocs\Library\login.php;f0;3;12;3;;D:\XAMPP\htdocs\Library\server.php;f65;13;77;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="db_hostname;PHP:Var Name;D:\XAMPP\htdocs\Library\test.php;f28;22;40;22;;D:\XAMPP\htdocs\Library\home.php;f32;55;44;55;;D:\XAMPP\htdocs\Library\login.php;f0;2;12;2;;D:\XAMPP\htdocs\Library\server.php;f23;13;35;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="db_password;PHP:Var Name;D:\XAMPP\htdocs\Library\test.php;f56;22;68;22;;D:\XAMPP\htdocs\Library\home.php;f60;55;72;55;;D:\XAMPP\htdocs\Library\login.php;f0;5;12;5;;D:\XAMPP\htdocs\Library\server.php;f51;13;63;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="db_server;PHP:Var Name;D:\XAMPP\htdocs\Library\test.php;f1;22;11;22;;;;vposresource;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="db_username;PHP:Var Name;D:\XAMPP\htdocs\Library\test.php;f42;22;54;22;;D:\XAMPP\htdocs\Library\home.php;f46;55;58;55;;D:\XAMPP\htdocs\Library\login.php;f0;4;12;4;;D:\XAMPP\htdocs\Library\server.php;f37;13;49;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="isbn;PHP:Var Name;D:\XAMPP\htdocs\Library\test.php;f2;32;7;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="j;PHP:Var Name;D:\XAMPP\htdocs\Library\test.php;f6;74;8;74;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="query;PHP:Var Name;D:\XAMPP\htdocs\Library\test.php;f2;34;8;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="result;PHP:Var Name;D:\XAMPP\htdocs\Library\test.php;f1;71;8;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="row;PHP:Var Name;D:\XAMPP\htdocs\Library\test.php;f2;75;6;75;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="rows;PHP:Var Name;D:\XAMPP\htdocs\Library\test.php;f1;73;6;73;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="title;PHP:Var Name;D:\XAMPP\htdocs\Library\test.php;f2;48;8;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="year;PHP:Var Name;D:\XAMPP\htdocs\Library\test.php;f2;50;7;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</phptree>
+		<jstree>
+			<treenode node="document;JS:JS Var Name;D:\XAMPP\htdocs\Library\script.js;f2;0;10;0;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</jstree>
+		<scsstree>
+		</scsstree>
+		<lesstree>
+		</lesstree>
+	</codestructure><cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+	</todoblock>
+	<filescache>
+		<file name="D:\XAMPP\htdocs\Library\style.css" crc="1271022670"/>
+		<file name="D:\XAMPP\htdocs\Library\server.php" crc="1025361807"/>
+		<file name="D:\XAMPP\htdocs\Library\script.js" crc="-1594980340"/>
+		<file name="D:\XAMPP\htdocs\Library\login.php" crc="-1842545057"/>
+		<file name="D:\XAMPP\htdocs\Library\home.php" crc="-1929648925"/>
+		<file name="D:\XAMPP\htdocs\Library\connection.php" crc="-967580173"/>
+	</filescache>
+</project>

@@ -1,0 +1,332 @@
+/* Sidebar----- */
+
+#sidebar-wrapper{
+	z-index: 1;
+	/**/
+	position: absolute;
+	/**/
+	
+	/*
+	float: left;
+	*/
+	width: 0;
+	height: 100%;
+	overflow-y: hidden;
+	background: #2C3E50;	
+}
+
+/* Main content---- */
+#page-content-wrapper{
+	/**/
+	width: 100%;
+	position: absolute;
+	padding: 15px;
+	/**/
+	/*
+	float: left;
+	*/
+}
+
+.col-lg-12{
+	margin-top: 20px;
+	margin-left: 20px;
+	
+}
+/* Table-list content ------*/
+#booksList{
+	margin-left: 0px;
+	display: none;
+}
+
+#readerList{
+	margin-left: 0px;
+	display: none;
+	
+}
+
+#overview{
+	margin-left: 0px;
+	display: none;		
+}
+
+#overview dt{
+		width: 200px;		
+		float: left;		
+}
+
+
+.container-form-book{
+	margin-left: 0px;
+	display: none;		
+}
+
+#container-form-reader, #legend-form-reader, #legend-form-book, #edit-form-book, #edit-form-reader {
+	margin-left: 0px;
+	display: none;		
+}
+
+/* Specimen option button*/
+a.specimenOption {	
+	margin-bottom: 20px;	
+}
+
+
+/* Overview table-list inpyt idCard*/
+input.formIssueContainer {
+	height: 30px;
+	width: 200px;
+	margin-bottom: 0px;
+	float: left;
+	
+	
+}
+
+/* The appearance of the table to show the books -------*/
+
+#page-content-wrapper.booksTable #booksList{
+	display: block;		 
+}
+
+
+/* The appearance of the table to show the readers -------*/
+
+#page-content-wrapper.readerTable #readerList{
+	display: block;		 
+}
+
+/* The appearance of the table to overview-------*/
+
+#page-content-wrapper.overviewTable #overview{
+	display: block;		 
+}
+
+
+
+/* Change the width of the sidebar to display it---------- */
+
+#wrapper.menuDisplayed #sidebar-wrapper{
+	width: 250px;
+}
+
+#wrapper.menuDisplayed #page-content-wrapper{
+	/*20px*/
+	padding-left: 250px;	
+}
+
+/* The appearance of the form to add book----------*/
+
+#page-content-wrapper.addBook #legend-form-book{
+	display: block;	
+	
+}
+
+#page-content-wrapper.addBook .container-form-book{
+	display: block;	
+	width: 600px;
+	margin-left: 20px; 
+}
+
+/* The appearance of the form to add book----------*/
+
+#page-content-wrapper.editBook #edit-form-book{
+	display: block;	
+	
+}
+
+#page-content-wrapper.editBook .container-form-book{
+	display: block;	
+	width: 600px;
+	margin-left: 20px; 
+}
+
+
+
+
+/* The appearance of the form to add reader----------*/
+
+
+#page-content-wrapper.addReader #container-form-reader{
+	display: block;	
+	width: 600px;
+	margin-left: 20px; 
+}
+#page-content-wrapper.addReader #legend-form-reader{
+	display: block;	
+	
+}
+
+/* The appearance of the form to add reader----------*/
+
+
+#page-content-wrapper.editReader #container-form-reader{
+	display: block;	
+	width: 600px;
+	margin-left: 20px; 
+}
+#page-content-wrapper.editReader #edit-form-reader{
+	display: block;	
+	
+}
+
+/* Sidebar styling*/
+
+.sidebar-nav{
+	margin-top: 35px;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar-nav li{	
+	text-indent: 20px;
+	list-style: none;
+	
+}
+
+.sidebar-nav li a{	
+	display: block;
+	text-decoration: none;
+	color: #ddd;
+}
+
+.sidebar-nav li a:hover{
+	background: #53c382;
+}
+
+#returnMenu{ 	
+	margin-left: 190px;
+	text-indent: 0px;	
+}
+
+/* The styling of table for speciments*/
+#idCard{
+	height: 30px;
+	width: 150px;
+	margin-right: 0px;
+	padding-right: 0px;
+}
+.td_IdCard{
+	
+	width: 220px;
+}
+
+.specimenReceiptDate{
+	margin-bottom: 0px;
+	padding-top: 0px;
+	margin-top: 0px;	
+	display: inline-block;
+}
+#delitSpecimen{
+	
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+}
+
+.input-append{
+	width: 230px;
+	height: 30px;
+}
+.issueBook{
+	margin-left: 0px;
+}
+#editReceipDate{
+	width: 150px;
+	height: 30px;
+}
+
+.buttonEditReceipDate{
+	height: 20px;
+	background-image: none;
+}
+
+#addFormSpecimen{
+	height: 30px;	
+}
+#addSpecimen{
+	height: 20px;
+	margin-top: 10px;
+}
+/* The styling of form to add book  */
+
+input.formBookContainer{
+	height: 30px;
+}
+
+#editSpecimen {
+	
+	padding-top: 5px;
+	margin-bottom: 0px;
+	padding-bottom: 5px;
+}
+
+#tableFormBook select{
+	height: 30px;
+	width: 250px;
+	margin-top: 10px;
+}
+
+#buttonAddAuthor, .btn_remove{
+	margin-top: 10px;
+	
+}
+#buttonAddSpecimen, .btn_removeSpecimen{
+	margin-top: 25px;
+}
+
+#receiptDate{
+	margin-top: 0px;
+}
+
+
+/* The styling of form to add reader ------ */
+
+input.formReaderContainer {
+	height: 30px;
+	width: 250px;
+	margin-top: 10px;	 
+}
+#birthDate{
+	margin-top: 0px;
+}
+
+#gender{
+	height: 30px;
+	width: 250px;
+	margin-top: 25px;
+}
+
+
+
+/* Validation of form*/
+.help-block {
+	font-style:italic; 
+	color:red
+} 
+
+
+#menu-toggle, .btn-success{
+	transition: 0.3s ease;
+	background-image: none;
+	background-color: #51a351;
+	
+}
+.btn-danger{	
+	background-image: none;	
+}
+
+#menu-toggle:hover {
+	color: #fff;
+    background-color: #53c382;
+    /*padding: 4px 50px;*/
+}
+
+.active{
+	background-color: #16A085;	
+	/*background: #53c382;*/
+}
+
+
+
+/* Selection of table rows */
+table.table.table-striped tr.found td {
+    background-color: #51a351;
+}
